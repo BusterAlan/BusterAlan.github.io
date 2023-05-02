@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problematicas del comedor universitario UM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <style>
+
+      .card {
+
+        width: 50%;
+        margin: 0 auto;
+
+      }
+
+      .card-img {
+
+        filter: brightness(60%);
+
+      }
+
+      body {
+
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+        background-position: center bottom 90%;
+
+      }
+
+      #logoUM {
+
+        filter: grayscale();
+
+      }
+
+      .carousel-item img {
+
+        max-height: 100%;
+        max-width: 100%;
+
+      }
+
+
+    </style>
+</head>
+<body>
+    
+<div class="container">
+
+    <!-- BARRA DE NAVEGACIÓN -->
+
+    <div>
+      <div id="barraNav"></div>
+      <script src="barra_de_navegación.js"></script>
+    </div>
+
+    <!-- TARJETA DE BIENVENIDA -->
+
+    <br>
+
+    <div class="container text-center" style="width: 100%; margin: 0;">
+      <div class="row">
+        <div class="col">
+          <div class="card text-center mb-3" style="width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <div class="card-body">
+              <h5 class="card-title">¡Bienvenidos a nuestro sitio web!</h5>
+              <p class="card-text">Esperamos que nuestro trabajo aquí, y la representación de varios problemas que hemos analizado y desenvuelto para ustedes, pueda crear en todos las ganas y el querer buscar mejorar cómo mejorar la calidad de servicio para los estudiantes</p>
+              <a href="#credits" class="btn btn-primary">Más acerca de nosotros</a>
+            </div>
+          </div>        
+        </div>
+        <div class="col">
+          <div class="card text-bg-dark" style="width: 100%; margin-bottom: 0px;">
+            <img src="comedor um.jpeg" class="card-img" alt="comedorUniversitario">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Comedor Universitario (UM)</h5>
+              <p class="card-text">Nuestro proyecto estuvo orientado a este edificio, junto a diversos problemáticas que pudimos observar y percatarnos durante este semestre</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---->
+
+    <!-- CARRUSEL DE IMÁGENES -->
+
+      <div style="scale: 90%" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="tiempo real.png" class="d-block w-100" alt="Img_1">
+            </div>
+            <div class="carousel-item">
+              <img src="afuera comedor.png" class="d-block w-100" alt="Img_2">
+            </div>
+            <div class="carousel-item">
+              <img src="filas problema.png" class="d-block w-100" alt="Img_3">
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!---->
+
+      <!-- ACORDEÓN DE ITEMS (3) -->
+
+        <div data-bs-theme="dark" class="accordion accordion-flush" id="accordionFlushExample" style="margin-bottom: 30px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button id="scrollspyHeading1" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+
+                Problemática: Las filas y el órden
+
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+
+                <p>
+                
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor sodales sapien 
+                vitae bibendum. Curabitur luctus lectus non purus commodo, id volutpat nunc iaculis. In quis 
+                urna pharetra, porta augue non, aliquam massa. Nullam sodales consequat leo, ut efficitur 
+                dolor efficitur in. Nullam efficitur blandit nisi, eget eleifend quam viverra non. Quisque et 
+                est in risus pellentesque malesuada. Nam porta malesuada consequat. Ut faucibus viverra commodo.
+                Mauris ultrices neque ac metus vestibulum, in tristique elit ultrices. Integer varius turpis eu 
+                lacus sagittis faucibus. Pellentesque auctor quam ipsum, et pretium purus rhoncus ac. Nam in nisl 
+                at ante maximus scelerisque vel a dolor. Sed quis metus purus. <br><br>
+
+                Phasellus sed metus sed dolor interdum sagittis sed at nibh. Vivamus euismod pharetra hendrerit. Donec non vestibulum tortor. Nam accumsan tincidunt pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus maximus elit vitae tortor ultrices, nec egestas risus elementum. Vestibulum dictum, est eu convallis pretium, mi urna rhoncus augue, eu finibus purus risus ornare urna. Nunc placerat malesuada egestas. Nulla odio ligula, pharetra nec viverra sit amet, bibendum ut risus. Mauris maximus tincidunt erat. Curabitur aliquet, felis in auctor rhoncus, est quam pretium leo, ut ultricies mi libero sed ligula. Nullam ut gravida nunc. <br><br>
+                Etiam auctor a lectus a eleifend. Phasellus turpis libero, maximus sagittis aliquam eu, maximus 
+                sed odio. Maecenas non magna turpis. Nunc a tincidunt ligula, ornare lacinia felis. Cras convallis
+                turpis vel massa faucibus, vel efficitur neque viverra. Praesent quis erat et erat tempus dapibus 
+                eget id libero. Duis vel lobortis ligula. Suspendisse tempus est quis elit congue, ac aliquam 
+                lacus rhoncus. Integer in ultricies metus. Fusce fermentum elit sed enim facilisis suscipit id 
+                tincidunt justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
+                himenaeos. Integer vel porttitor est, vitae tincidunt orci. Interdum et malesuada fames ac ante 
+                ipsum primis in faucibus. Nunc et posuere orci. Sed id vehicula ex. Vestibulum lobortis 
+                consectetur metus, vitae tempus metus faucibus quis.
+
+                </p>
+
+                <div style="display: flex; align-items: center; justify-content: center; padding-top: 30px; padding-bottom: 30px;">
+
+                  <img src="https://placehold.co/1280x720" style="height: 180px; width: 320px; flex-grow: 1;">
+                  <img src="https://placehold.co/1280x720" style="height: 180px; width: 320px; flex-grow: 1;"> 
+                  <img src="https://placehold.co/1280x720" style="height: 180px; width: 320px; flex-grow: 1;"> 
+                
+                </div>
+
+                <p>
+
+                  Nullam sed aliquam turpis. Donec sollicitudin dui felis, ac volutpat ex tincidunt nec. Nunc 
+                  vehicula, felis id dictum faucibus, felis lacus pulvinar ligula, eu commodo risus sapien sit 
+                  amet odio. Donec pulvinar ornare dui, non eleifend felis interdum sodales. Quisque ornare, 
+                  dolor non dapibus molestie, odio elit interdum odio, vitae faucibus ipsum libero tristique 
+                  ipsum. Vestibulum elementum porta ex, non suscipit sem. Nam luctus ut lacus ac aliquet. 
+                  Quisque mollis neque enim, quis finibus nunc tempus non. Nunc imperdiet, erat quis feugiat 
+                  dapibus, risus metus iaculis mauris, interdum feugiat metus purus at neque. Etiam eu arcu 
+                  maximus, fermentum tellus eget, auctor lacus. Sed id dui placerat, ultricies magna eget, 
+                  rutrum neque. <br><br>
+
+                  Vestibulum ante ipsum, mattis sed augue at, bibendum mollis nibh. Nulla sit amet nulla nunc. 
+                  Morbi quis tincidunt diam, sed ullamcorper sem. Maecenas fermentum, ante at dignissim vehicula,
+                  augue urna vehicula odio, tempus commodo turpis leo ac quam. Mauris semper lectus ut justo 
+                  convallis iaculis. Aenean dignissim imperdiet fermentum. Cras et tempor lorem, non dapibus sem. 
+                  Vivamus efficitur nibh lacinia volutpat aliquet. Fusce at tortor quis turpis feugiat volutpat 
+                  in at libero. Donec lobortis velit libero, ac tempor neque auctor id. Integer consectetur 
+                  ornare tortor, non scelerisque est lacinia quis. Sed sed sollicitudin libero, pretium 
+                  pellentesque ipsum. Quisque hendrerit felis non eros condimentum efficitur. Proin dui enim, 
+                  feugiat in lobortis quis, finibus sodales arcu. Integer posuere tortor at lectus iaculis, nec 
+                  ultricies turpis cursus.
+
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button id="scrollspyHeading3" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+
+                Reflexión: Conclusiones variadas
+
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+
+                <p>
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor sodales sapien vitae bibendum. Curabitur luctus lectus non purus commodo, id volutpat nunc iaculis. In quis urna pharetra, porta augue non, aliquam massa. Nullam sodales consequat leo, ut efficitur dolor efficitur in. Nullam efficitur blandit nisi, eget eleifend quam viverra non. Quisque et est in risus pellentesque malesuada. Nam porta malesuada consequat. Ut faucibus viverra commodo. Mauris ultrices neque ac metus vestibulum, in tristique elit ultrices. Integer varius turpis eu lacus sagittis faucibus. Pellentesque auctor quam ipsum, et pretium purus rhoncus ac. Nam in nisl at ante maximus scelerisque vel a dolor. Sed quis metus purus. <br><br>
+
+                  Phasellus sed metus sed dolor interdum sagittis sed at nibh. Vivamus euismod pharetra hendrerit. Donec non vestibulum tortor. Nam accumsan tincidunt pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus maximus elit vitae tortor ultrices, nec egestas risus elementum. Vestibulum dictum, est eu convallis pretium, mi urna rhoncus augue, eu finibus purus risus ornare urna. Nunc placerat malesuada egestas. Nulla odio ligula, pharetra nec viverra sit amet, bibendum ut risus. Mauris maximus tincidunt erat. Curabitur aliquet, felis in auctor rhoncus, est quam pretium leo, ut ultricies mi libero sed ligula. Nullam ut gravida nunc.
+
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+
+        <div data-bs-theme="dark" class="card text-bg-secondary mb-3" style="max-width: 75%;">
+          <div class="card-header">Justificación del trabajo</div>
+          <div class="card-body">
+            <h5 class="card-title">¿Por qué pensamos que era importante y relevante?</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor sodales sapien vitae bibendum. Curabitur luctus lectus non purus commodo, id volutpat nunc iaculis. In quis urna pharetra, porta augue non, aliquam massa. Nullam sodales consequat leo, ut efficitur dolor efficitur in. Nullam efficitur blandit nisi, eget eleifend quam viverra non. Quisque et est in risus pellentesque malesuada. Nam porta malesuada consequat. Ut faucibus viverra commodo. Mauris ultrices neque ac metus vestibulum, in tristique elit ultrices. Integer varius turpis eu lacus sagittis faucibus. Pellentesque auctor quam ipsum, et pretium purus rhoncus ac. Nam in nisl at ante maximus scelerisque vel a dolor. Sed quis metus purus.</p>
+          </div>
+        </div>
+
+        <br><br>
+
+        <figure class="text-center">
+          <blockquote class="blockquote">
+            <p style="color: rgba(255, 255, 255, 0.473);">"Estamos aprisionados en el reino de la vida, como un marinero en su pequeño bote, en un océano infinito"</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            <cite style="color: white;" title="Source Title">Anna Freud</cite>
+          </figcaption>
+        </figure>
+
+        <br><br>
+
+        <div data-bs-theme="dark" id="credits" class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="alan - proyecto.jpg" class="card-img-top" alt="Alan">
+                <div class="card-body">
+                  <h5 class="card-title">Alan Chablé</h5>
+                  <p class="card-text">Estudiante de la Facultad de Ingeniería y Tecnología de la UM, de Ingeniería en Sistemas Computacionales (2do Semestre)</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem; margin-bottom: 30px;">
+                <img src="https://placehold.co/500x500" class="card-img-top" alt="Jahaziel">
+                <div class="card-body">
+                  <h5 class="card-title">Jahaziel Eduardo</h5>
+                  <p class="card-text">Estudiante de la Facultad de Ingeniería y Tecnología de la UM, de Ingeniería Indsutrial y de Sistemas (2do Semestre)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <p class="lead" style="color: white; font-size: 15px; text-align: center;">
+
+          ©2023 Universidad de Montemorelos, All Rights Reserved.
+
+        </p>
+
+        <div style="text-align: center;">
+
+          <img id="logoUM" src="Logo UM.png" style="width: 165px; height: 39px;">
+
+        </div>
+
+        <br>
+
+</div>
+
+</body>
+</html>
